@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 
-const makeMultiFetchHappen = async (urls) => {
+const makeMultiFetchHappen = (urls) => {
   return Promise.all(
     urls.map(async (url) => {
       try {
