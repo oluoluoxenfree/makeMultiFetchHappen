@@ -39,5 +39,6 @@ Run `npm run test`. Uses Mocha.
 ## Given just a little more time...
 
 - Add an error that says which url has thrown when there is an error
+- Add validation saying that an endpoint doesn't return JSON
 - Add JSDoc documentation and a build step for that
 - More jokes
