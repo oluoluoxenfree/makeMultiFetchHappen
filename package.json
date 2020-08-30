@@ -1,0 +1,16 @@
+{
+  "name": "ft-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.1.3",
+    "node-fetch": "^2.6.0"
+  }
+}
