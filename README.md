@@ -13,6 +13,7 @@ Once your project is initialised, you can install the package by replacing the p
 ## Usage
 
 ```js
+// urls must be an array
 makeMultiFetchHappen(urls).then((data) => {
     theMagicHappens(data);
     console.log(JSON.stringify(data, null, 2));
