@@ -9,7 +9,6 @@ const urls = [
 
 it("assertion fail", async (done) => {
   const data = await makeMultiFetchHappen(urls);
-  console.log(JSON.stringify(data, null, 2));
   try {
     assert(data === 199);
   } catch (error) {
